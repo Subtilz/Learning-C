@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    char name[100];
+    char name[1000];
     int high;
     long long std_id;
     float weight;
