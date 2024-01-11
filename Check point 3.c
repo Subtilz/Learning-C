@@ -19,6 +19,6 @@ int main()
     scanf("%d", &high);
 
     printf("name : %s ID : %lld\n", name, std_id);
-    printf("weight : %.1f hight %d \n", weight, high);
+    printf("weight : %.1f hight : %d \n", weight, high);
     return 0;
 }
