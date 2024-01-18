@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    char name[1000];
+    char name[100];
     int high;
     long long std_id;
     float weight;
+
 
     printf("Please enter your name :");
     scanf("%s", &name);
@@ -18,7 +19,7 @@ int main()
     printf("Please enter your hight(cm) :");
     scanf("%d", &high);
 
-    printf("name : %s ID : %lld\n", name, std_id);
+    printf("name : %s last name : %s ID : %lld\n",name, std_id);
     printf("weight : %f hight : %d \n", weight, high);
     return 0;
 }
