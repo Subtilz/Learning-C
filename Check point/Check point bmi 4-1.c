@@ -15,7 +15,6 @@ int main()
 
     if (bmi >= 18 && bmi <= 22){
         printf("Good Shape\n");
-        printf("Good Bye\n");
     }
     printf("Good bye\n");
     return 0;
